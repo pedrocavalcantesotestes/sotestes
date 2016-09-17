@@ -1,0 +1,26 @@
+@media only screen and (max-width: 638px) {
+  /*.share,*/
+  .login,
+  .gerar {
+    margin-bottom: 0px;
+  }
+  /*.share.share,*/
+  .login.share,
+  .gerar.share,
+  /*.share.login,*/
+  .login.login,
+  .gerar.login {
+    position: fixed;
+    bottom: 0;
+    max-width: 100% !important;
+    width: 100%;
+    z-index: 1000;
+  }
+  .share.share,
+  .gerar.share,
+  .share.login {
+    min-width:100%;
+    border-radius:0;
+  }
+}
+/*# sourceMappingURL=fixo.css.map */
